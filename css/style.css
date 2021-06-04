@@ -120,7 +120,7 @@ header .mainbar .description a{
 
 /* Start main */
 
-/* First box */
+/* First box and third box */
 .box-main{
     height: 500px;
     padding: 40px 0;
@@ -149,6 +149,47 @@ header .mainbar .description a{
     text-align: right;
 }
 
-.second-box{
+.box-grey{
     background-color: #f6f6f6;
+}
+
+/* Last box */
+
+.row-1{
+    height: 150px;
+    text-align: center;
+}
+.row-1 p{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row-2{
+    height: 600px;
+    text-align: center;
+}
+.row-2 img{
+    width: 55%;
+}
+.row-3{
+    height: 200px;
+    text-align: center;
+    padding: 20px 0;
+}
+.row-3 h2{
+    font-size: 30px;
+}
+.row-3 a{
+    text-decoration: none;
+    background-color: #8ea1e1;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 20px;
+    line-height: 150px;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: #23272a;
+    height: 500px;
 }
