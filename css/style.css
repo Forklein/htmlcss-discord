@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
+header .topbar{
+    height: 80px;
+    background-color: #3161e0;
+    line-height: 80px;
+}
+
+ #logo{
+     vertical-align: middle;
+ }
+
+.col-1{
+    width: 20%;
+    text-align: center;
+}
+
+.col-2{
+    width: 60%;
+    text-align: center;
+}
+
+.col-2 ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.col-3{
+    width: 20%;
+    text-align: center;
+}
