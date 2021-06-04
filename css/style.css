@@ -61,12 +61,13 @@ header .topbar{
     text-decoration: none;
     background-color: #fff;
     color: black;
+    font-weight: 600;
     padding: 10px 15px;
     border-radius: 15px;
 }
 
 header .mainbar{
-    height: 500px;
+    height: 450px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-position: center;
@@ -83,12 +84,30 @@ header .mainbar .description{
     text-align: center;
 }
 
+header .mainbar .description p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
 header .mainbar .description a{
     display: inline-block;
     text-align: center;
     margin: 0 5px;
-    padding: 10px 15px;
+    padding: 15px 20px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     text-decoration: none;
+    font-size: 20px;
+}
+
+#first-btn{
+    background-color: #fff;
+    color: black;
+}
+
+#second-btn{
+    background-color: #000;
+    color: #fff;
 }
