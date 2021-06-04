@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container{
@@ -26,12 +27,12 @@ header .topbar{
 }
 
  #logo{
-     vertical-align: middle;
+    vertical-align: middle;
  }
 
 .col-1{
     width: 20%;
-    text-align: center;
+    text-align: right;
 }
 
 .col-2{
@@ -41,10 +42,53 @@ header .topbar{
 
 .col-2 ul li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 15px;
+    list-style: none;
+}
+
+.col-2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 .col-3{
     width: 20%;
+    text-align: left;
+}
+
+.col-3 a{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+header .mainbar{
+    height: 500px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header .mainbar .description{
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     text-align: center;
+}
+
+header .mainbar .description a{
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
 }
