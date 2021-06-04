@@ -1,3 +1,5 @@
+/* Reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -118,8 +120,11 @@ header .mainbar .description a{
 
 /* Start main */
 
+/* First box */
 .box-main{
     height: 500px;
+    padding: 40px 0;
+    margin: 150px 0;
 }
 
 .col-main-big{
@@ -137,4 +142,13 @@ header .mainbar .description a{
     line-height: 30px;
     font-size: 20px;
     padding: 10px 0;
+}
+/* Second box */
+
+#box-unique{
+    text-align: right;
+}
+
+.second-box{
+    background-color: #f6f6f6;
 }
