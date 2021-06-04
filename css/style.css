@@ -189,7 +189,44 @@ header .mainbar .description a{
     vertical-align: middle;
 }
 
+/* Start footer */
+
 footer{
     background-color: #23272a;
+    height: 600px;
+    padding: 50px 0;
+}
+
+.footer-text{
+    width: 80%;
     height: 500px;
+    margin: 0 auto;
+}
+
+.col-footer-main{
+    margin-right: 30px;
+    width: calc(20% - 30px);
+    height: 200px;
+
+}
+
+.col-footer-main h1{
+    font-size: 30px;
+    color: #7289da;
+}
+
+.col-footer h3{
+    color: #7289da;
+    padding: 10px 0;
+}
+
+.col-footer{
+    width: 20%;
+    height: 200px;
+}
+
+.col-footer ul li{
+    list-style-type: none;
+    line-height: 30px;
+    color: #fff;
 }
